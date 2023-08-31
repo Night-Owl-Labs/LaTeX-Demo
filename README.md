@@ -1,19 +1,24 @@
 # LaTeX Demo: Professional Document Formatting
+
 This repository contains an example `LaTeX` document that demonstrates the capabilities of `LaTeX` for creating professional-quality documents with mathematical and scientific content.
 
 ## About LaTeX
+
 `LaTeX` is a typesetting system built on top of the `TeX` typesetting system. It is widely used for producing documents with consistent and high-quality formatting, particularly in academic, research, and technical contexts. `LaTeX` excels at typesetting complex mathematical equations, scientific symbols, and structured documents.
 
 ## Example Contents
+
 The `LaTeX` document (`demo.tex`) in this repository showcases various features of `LaTeX`:
 
-## Structured sections and headings
+- Structured sections and headings
 - Mathematical equations using the amsmath package
 - Inclusion of figures using the graphicx package
 - Lists and itemization
 - Cross-referencing sections, figures, and equations
 - Proper citation management using BibTeX
-- Compiling the Document
+
+## Compiling the Document
+
 - To compile the `LaTeX` document into a `PDF`, you'll need a `LaTeX` distribution installed on your system (such as `TeX Live` or `MiKTeX`). Use a `LaTeX` compiler, such as `pdflatex`, `xelatex`, or `lualatex`, to compile the document:
 
 ```sh
@@ -21,6 +26,13 @@ pdflatex demo.tex
 ```
 
 The compilation process may require running the compiler multiple times to resolve cross-references and citations.
+Another option is to use the `latexmk` tool, which will automatically run the appropriate commands to compile the document:
+
+```sh
+latexmk demo.tex
+```
+
+You can also use an online `LaTeX` editor, such as [Overleaf](https://www.overleaf.com/), to compile the document.
 
 ## Usage
 1. Clone this repository to your local machine.
@@ -33,6 +45,7 @@ For more information and tutorials on `LaTeX`, you can refer to the following re
 
 - [LaTeX Project Website](https://www.latex-project.org/)
 - [Overleaf: Online LaTeX Editor](https://www.overleaf.com/learn)
+- [Simple Online TeX Viewer/Editor](https://texviewer.herokuapp.com)
 
 ## License
 This project is released under the terms of the **Unlicense**, which allows you to use, modify, and distribute the code as you see fit. The Unlicense removes traditional copyright restrictions, giving you the freedom to use the code in any way you choose.
